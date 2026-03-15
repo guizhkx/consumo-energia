@@ -1,9 +1,15 @@
+# Programa para calcular consumo mensal de energia
+
 aparelho = input("Digite o nome do aparelho: ")
-potencia = float(input("Digite a potência em watts (W): "))
-horas_dia = float(input("Digite quantas horas por dia ele é usado: "))
+potencia = float(input("Digite a potência do aparelho em watts (W): "))
+horas_dia = float(input("Digite o tempo médio de uso diário em horas: "))
 
 consumo_mensal = (potencia * horas_dia * 30) / 1000
 
-print("\nResultado:")
-print("Aparelho:", aparelho)
-print("Consumo estimado:", consumo_mensal, "kWh/mês")
+valor_kwh = 0.75
+custo = consumo_mensal * valor_kwh
+
+print("\n===== Resultado =====")
+print(f"Aparelho: {aparelho}")
+print(f"Consumo estimado: {consumo_mensal:.2f} kWh/mês")
+print(f"Custo estimado: R$ {custo:.2f}")
