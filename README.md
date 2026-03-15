@@ -1,3 +1,5 @@
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Status](https://img.shields.io/badge/status-concluído-green)
 #  Consumo de Energia
 
 ##  Objetivo
