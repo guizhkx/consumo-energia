@@ -1,17 +1,17 @@
-#  Calculadora de Consumo de Energia
+#  Consumo de Energia
 
-Projeto em Python que calcula o consumo mensal de energia de um aparelho.
+##  Objetivo
+Este projeto calcula o consumo mensal de energia de um aparelho elétrico.
 
-## Linguagem utilizada
- Python
+##  Linguagem utilizada
+Python
 
-## Fórmula usada
+##  Fórmula utilizada
 
 consumoMensal = (potencia * horasDia * 30) / 1000
 
-## Como executar
+##  Como executar
 
-1. Abra o terminal
-2. Execute:
+Execute o comando:
 
 python app.py
